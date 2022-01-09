@@ -3,9 +3,9 @@ package ec.com.tecLemas;
 import java.util.ArrayList;
 import java.util.List;
 
-/* 1.	Crea un ArrayList con los nombres de 6 compañeros de clase. 
- * A continuación, muestra esos nombres por pantalla. 
- * Utiliza para ello un bucle for que recorra todo el ArrayList sin usar ningún índice. Ejemplo Maria, Pedro, Pablo, Andrea*/
+/* 1.	Crea un ArrayList con los nombres de 6 compaÃ±eros de clase. 
+ * A continuaciÃ³n, muestra esos nombres por pantalla. 
+ * Utiliza para ello un bucle for que recorra todo el ArrayList sin usar ningÃºn Ã­ndice. Ejemplo Maria, Pedro, Pablo, Andrea*/
 
 public class ejercicio1 {
 
@@ -13,12 +13,12 @@ public class ejercicio1 {
 		String nombres = "";
 		List<String> nombresList= new ArrayList<>();
 		nombresList.add("Ronald Pilay");
-		nombresList.add("Gabriel");
-		nombresList.add("Felix");
-		nombresList.add("Michael");
-		nombresList.add("Ronny Arias");
-		nombresList.add("Ronald Pilay");
-		System.out.println("Compañeros de CLases: ");
+		nombresList.add("Gabriel Martinez");
+		nombresList.add("Felix Henriquez");
+		nombresList.add("Michael Zambrano");
+		nombresList.add("Ronny Ortiz");
+		
+		System.out.println("CompaÃ±eros de CLases: ");
 	    for(int iLoop=0; iLoop < nombresList.size(); iLoop++) {
 	       
 	        nombres += nombresList.get(iLoop) + ", ";
